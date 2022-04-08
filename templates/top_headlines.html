@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>
+        Hello, {{ name }}
+    </h1>
+    <p>
+        Top Technology News Headlines: 
+    </p>
+    <ol>
+        {% for story in tech_stories %}
+        <li>
+            {{ story }}
+            
+        </li>
+        {% endfor %}
+    </ol>
+</body>
+
+</html>
